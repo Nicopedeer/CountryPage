@@ -1,0 +1,115 @@
+.gridContainer{
+  width: 100%;
+  min-height: 71.8vh;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.countryCard {
+  width: 80%;
+  height: 80%;
+  background: linear-gradient(to right,rgb(107, 132, 208),rgb(43, 90, 234));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+  margin-top: 5%;
+  margin-left: 3%;
+  -webkit-box-shadow: 10px 14px 30px 0px rgba(0,0,0,0.72);
+  -moz-box-shadow: 10px 14px 30px 0px rgba(0,0,0,0.72);
+  box-shadow: 10px 14px 30px 0px rgba(0,0,0,0.72);
+  border-radius: 36px 36px 36px 36px;
+  -moz-border-radius: 36px 36px 36px 36px;
+  -webkit-border-radius: 36px 36px 36px 36px;
+}
+
+
+.countryHeading {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgb(241, 241, 241);
+  z-index: 2;
+}
+
+.acceptButton {
+  padding: 11px 20px;
+  background-color: royalblue;
+  transition-duration: .2s;
+  border: none;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+  font-weight: 600;
+  z-index: 2;
+}
+
+h1{
+  text-align: center;
+  font-size: 8rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+}
+.bordersContainer{
+  width: 60%;
+  min-height: 10vh;
+  padding-top: 20px;
+  margin-left: 20%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img{
+  width: 40%;
+  max-height: 400px;
+  margin-left: 30%;
+  border-radius: 36px 36px 36px 36px;
+  -moz-border-radius: 36px 36px 36px 36px;
+  -webkit-border-radius: 36px 36px 36px 36px;
+  -webkit-box-shadow: 10px 14px 30px 0px rgba(0,0,0,0.72);
+  -moz-box-shadow: 10px 14px 30px 0px rgba(0,0,0,0.72);
+  box-shadow: 10px 14px 30px 0px rgba(0,0,0,0.72);
+}
+
+.populationTable {
+  width: 40%;
+  border-collapse: collapse;
+  margin-left: 30%;
+  font-family: Arial, sans-serif;
+}
+
+.populationTable th,
+.populationTable td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.populationTable th {
+  background-color:#242424;
+  font-weight: bold;
+}
+
+.populationTable tr:nth-child(even) {
+  background: linear-gradient(to right,rgb(107, 132, 208),rgb(43, 90, 234));
+}
+.populationTable tr:nth-child(odd) {
+  background: linear-gradient(to left,rgb(107, 132, 208),rgb(43, 90, 234));
+}
+
+.goHome{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+  color: #ddd;
+  margin-left: 1%;
+}
+
+
